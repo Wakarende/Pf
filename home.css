@@ -84,3 +84,14 @@ section{
     color:white;
     border-color: #20B2AA;
 }
+.about{
+    width:70%;
+    height:330px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 12px rgba(0,0,0.2);
+    display: flex;
+    position: relative;
+
+}
