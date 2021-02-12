@@ -85,13 +85,24 @@ section{
     border-color: #20B2AA;
 }
 .about{
-    width:70%;
+    width:80%;
     height:330px;
-    background-color: white;
+    background-color:#91A3B0;
     border-radius: 5px;
     color: black;
     box-shadow: 2px 2px 12px rgba(0,0,0.2);
     display: flex;
     position: relative;
+    margin:  auto;
+    
+.about img{
+    height: 100px%;
 
 }
+.about-text{
+    font-size: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+}
+
