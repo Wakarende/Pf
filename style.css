@@ -1,0 +1,102 @@
+* {
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-weight: 200px;
+color: white;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    float: right;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    color: white;
+}
+nav{
+    text-decoration: none;
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px ;
+}
+.nav:hover{
+    color: #20B2AA;
+    border-style: none;
+
+}
+.active{
+    font-weight: bold;
+    color: #20B2AA;
+}
+
+section{
+    background-image: url(/images/computer.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    left: 13%;
+    top: 42%;
+    text-align: center;
+    position: absolute;
+    font-size: 16px;
+    cursor: pointer;
+    transform:translate(-13%,-42%);
+}
+
+.discover:hover{
+    color: #20B2AA;
+    transition: 0.8 sec;
+    border-style: none;
+    text-decoration: underline;
+     
+}
+.content p:nth-child(1){
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 22px;   
+}
+.content p:nth-child(2){
+    font-family: Calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #20B2AA;
+    font-size: 60px;
+}
+.content p:nth-child(3){
+    font-family: Calibri;
+    font-size: 30px;
+    line-height: 30px;
+
+}
+.content button{
+    width:130px;
+    height:42px;
+    border-radius:10px;
+    font-family: calibri;
+    font-weight:bold;
+    font-size: 16px;
+    outline: none;
+    margin: o 10px;
+    background: none;
+    color:white;
+    border-color: #20B2AA;
+}
+.about{
+    width:80%;
+    height:330px;
+    background-color:#91A3B0;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 12px rgba(0,0,0.2);
+    display: flex;
+    position: relative;
+    margin: auto;
