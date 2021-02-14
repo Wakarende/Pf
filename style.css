@@ -4,37 +4,39 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 font-weight: 200px;
-color: white;
 }
 html{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 18px;
+}
+.row{
+    max-width: 1140px;
+    margin: o auto;
+}
+section {
+    padding: 70px 0;
+    
 }
 .main-nav{
     list-style: none; 
     display:inline-flex;
     float:right;
     align-items:center;
-    height:60px;
+    height:60px;   
 }
 .main-nav li{
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 .main-nav li a{
     text-decoration: none;
-    
+    color: white;
+ 
 }
 .main-nav li a:hover{
     color: #20B2AA;
     border-style: none;
     text-decoration: underline;
-
-}
-.active{
-    font-weight: bold;
-    color: #20B2AA;
 }
 
 header{
@@ -42,8 +44,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    
+    background-position: center;   
 }
 .text-container{
     left: 30%;
@@ -52,13 +53,16 @@ header{
     position: absolute;
     font-size: 16px;
     cursor: pointer;
+    color: white;
 }
 .btn-discover{
     display: inline;
     text-decoration: none;
     padding: 10px 30px;
-    background-color:#696969;
+    background-color:none;
     border-radius: 10px;
+    color: white;
+    border: 1px solid #20B2AA;
 }
 
 .btn-discover:hover{
@@ -84,6 +88,65 @@ h1{
     color:#20B2AA;
     font-size: 90px;
     letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.hero p{
     margin-bottom: 20px;
+    font-size: 40px;
 }
 
+.grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    padding: 40px;
+    column-gap: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    
+}
+h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #20B2AA;
+    cursor: pointer;
+}
+.grid h3{
+    color: #696969;
+    text-decoration: #20B2AA underline;
+}
+
+input[type=text],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    cursor: text;
+}
+.s-btn {
+    background-color:#20B2AA;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color:#696969;
+}
+.s-btn:hover{
+    color: white;
+}
+.container{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.column p{
+    padding: 30px;
+}
