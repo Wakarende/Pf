@@ -6,6 +6,11 @@ box-sizing: border-box;
 font-weight: 200px;
 color: white;
 }
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 20px;
+}
 ul{
     list-style: none;
     text-decoration: none;
@@ -15,9 +20,9 @@ li{
     display: flex;
     padding: 20px;
     justify-content: space-between;
-    color: white;
+    color: black;
 }
-nav{
+.nav{
     text-decoration: none;
     display: flex;
     float: right;
@@ -35,21 +40,22 @@ nav{
     color: #20B2AA;
 }
 
-section{
+header{
     background-image: url(./images/computer.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     
 }
-.content{
+.text-container{
     left: 13%;
     top: 42%;
-    text-align: center;
+    text-align: left;
     position: absolute;
     font-size: 16px;
     cursor: pointer;
-    transform:translate(-13%,-42%);
+    padding:0 20rem;
 }
 
 .discover:hover{
@@ -58,24 +64,6 @@ section{
     border-style: none;
     text-decoration: underline;
      
-}
-.content p:nth-child(1){
-    font-family: Calibri;
-    font-weight: bold;
-    font-size: 22px;   
-}
-.content p:nth-child(2){
-    font-family: Calibri;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #20B2AA;
-    font-size: 60px;
-}
-.content p:nth-child(3){
-    font-family: Calibri;
-    font-size: 30px;
-    line-height: 30px;
-
 }
 .content button{
     width:130px;
@@ -89,6 +77,10 @@ section{
     background: none;
     color:white;
     border-color: #20B2AA;
+}
+h1{
+    color:#20B2AA;
+    font-size: 100px;
 }
 .about{
     width:80%;
